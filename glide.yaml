@@ -1,0 +1,5 @@
+package: github.com/ericchiang/bcrypt-cli
+import:
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
