@@ -1,9 +1,16 @@
-hash: 4b7158596baec3679cf61080a45d816bcb948325cf74b81c181a105fd6a9571a
-updated: 2016-10-20T16:09:48.441606294-07:00
+hash: fecd2c835113bdf42967e76f05c3b653679479e1b165628c2e97e91344809e00
+updated: 2016-11-14T15:55:50.208307488-08:00
 imports:
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
 - name: golang.org/x/crypto
-  version: 3ded668c5379f6951fb0de06174442072e5447d3
+  version: 9477e0b78b9ac3d0b03822fd95422e2fe07627cd
   subpackages:
   - bcrypt
   - blowfish
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: d4feaf1a7e61e1d9e79e6c4e76c6349e9cab0a03
+  subpackages:
+  - unix
 testImports: []
